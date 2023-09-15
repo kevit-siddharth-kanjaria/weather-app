@@ -24,7 +24,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req,res)=>{
     res.render('index',{
-        title:'WeatherPage!',
+        title:'WeatherApp!',
     })
 })
 
@@ -74,7 +74,7 @@ app.get('/about', (req,res)=>{
 app.get('/help', (req,res)=>{
     res.render('help',{
         title:'Help!?',
-        msg:"Some help here"
+        msg:"Imagine some help here"
     })
 })
 
